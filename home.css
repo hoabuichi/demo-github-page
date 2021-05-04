@@ -1,0 +1,951 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#main-logo header {
+    width: 100%;
+}
+
+#header-navigation {
+    background-color: black;
+    height: 100px;
+}
+
+#content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+#content-header #nav {
+    height: 100%;
+}
+
+nav {
+    width: 70%;
+    height: 100%;
+}
+
+#content-header #logo {
+    color: #c79c60;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#content-header #nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    float: right;
+    height: 100%;
+}
+
+#header-navigation #nav #bar {
+    font-size: 30px;
+    color: #c79c60;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 55px;
+    height: 54px;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    display: none;
+}
+
+#content-header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#content-header #nav .active {
+    color: #c79c60;
+    margin-top: 50%;
+}
+
+#content-header .name-logo {
+    margin-left: 10px;
+}
+
+#content-header #nav .logo {
+    margin-right: 12px;
+}
+
+#content-header #nav .sub-logo {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#content-header #active {
+    padding-top: 16px;
+}
+
+#content-header li:hover a {
+    color: #c79c60;
+}
+
+#banner {
+    background-color: #282726;
+    height: 890px;
+    position: relative;
+}
+
+#banner #banner-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner #banner-images .light {
+    width: 33%;
+}
+
+#banner #banner-content h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#banner #banner-content .cafe-name {
+    color: #c79c60;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+#banner #banner-content .descreption {
+    text-align: justify;
+    width: 650px;
+    color: #949494;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+#banner #banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -117px;
+}
+
+#banner #banner-content .bold {
+    color: #c79c60;
+}
+
+#banner #banner-content #detail-cafe {
+    background-image: url('../images/tm-brown-button.png');
+    width: 196px;
+    height: 46px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner #detail-cafe a {
+    color: #c79c60;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.6s;
+}
+
+#banner #detail-cafe:hover a {
+    color: white;
+}
+
+#banner #table-set {
+    background-image: url('../images/table-set-real.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -89px;
+}
+
+#content {
+    background-color: #e4e4e4;
+    height: 500px;
+}
+
+#content #best-coffee-content {
+    padding-top: 200px;
+    position: relative;
+}
+
+#content .describe .title {
+    color: #c79c60;
+    font-size: 30px;
+}
+
+#content .describe .sub-title {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#content .describe {
+    width: 75%;
+}
+
+#content .best-coffee-img {
+    width: 25%;
+}
+
+#content #main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#content .best-coffee-img img {
+    float: right;
+}
+
+#content .describe .main-content-title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+}
+
+#content #main-content img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 7px solid white;
+    box-shadow: 5px 11px 33px grey;
+}
+
+.read-more {
+    background-image: url('../images/tm-brown-button.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 196px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.read-more a {
+    color: #c79c60;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.read-more:hover a,
+.read-more a:focus {
+    color: white;
+}
+
+.blue-text {
+    color: #0066CC;
+}
+
+.blue-text:hover {
+    text-decoration: underline;
+}
+
+.green-text {
+    color: #30A430;
+}
+
+#introduction {
+    background-color: #e4e4e4;
+    height: 650px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.title-container .title-line {
+    width: 70%;
+    height: 0px;
+    border-top: 1px solid #c79c60;
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.title-container .title {
+    font-size: 30px;
+    color: #c79c60;
+    margin-left: 12px;
+    width: 100%;
+}
+
+.title-container .title-content {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#introduction .list-drink {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#introduction .list-drink .detail-drink {
+    width: 30%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#introduction .list-drink .drink-img {
+    height: 40%;
+    width: 100%;
+}
+
+#introduction .list-drink .infor-drink {
+    height: 60%;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#introduction .list-drink .drink-name {
+    font-size: 34px;
+    color: rgb(174, 174, 174);
+}
+
+#introduction .infor-drink hr {
+    width: 234px;
+    margin-bottom: 20px;
+}
+
+#introduction .infor-drink .drink-describe {
+    width: 234px;
+    height: 80px;
+}
+
+#introduction .infor-drink .drink-name {
+    margin-top: 20px;
+}
+
+#introduction .order {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(82, 76, 76);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    left: 90px;
+}
+
+#introduction .order-now {
+    width: 81px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 24px;
+    border: 2px solid rgb(174, 174, 174);
+    color: rgb(174, 174, 174);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#introduction .detail-drink:hover .order-now,
+#introduction .detail-drink:hover .drink-name {
+    color: #c79c60;
+}
+
+#introduction .detail-drink:hover .order-now {
+    border: 2px solid #c79c60;
+}
+
+#introduction .detail-drink:hover hr {
+    border-top: 1px solid #c79c60;
+}
+
+#introduction .detail-drink:hover .infor-drink {
+    box-shadow: 0 8px 12px gray;
+}
+
+#today-special {
+    background-color: #e4e4e4;
+    height: 660px;
+}
+
+#today-special #special-logo .name-logo {
+    color: #c79c60;
+    font-size: 30px;
+    margin-left: 7px;
+}
+
+#today-special #list-specials {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#list-specials #special-item-container-left {
+    background-image: url('../images/donec.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 400px;
+    border: 8px solid white;
+    position: relative;
+    border-bottom: 12px solid white;
+}
+
+#list-specials #special-item-container-right #special-item-container-top {
+    background-image: url('../images/etiam.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border: 8px solid white;
+    border-bottom: 12px solid white;
+    position: relative;
+}
+
+#list-specials #special-item-container-bottom-left {
+    background-image: url('../images/vivamus.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border: 8px solid white;
+    height: 180px;
+    border-bottom: 12px solid white;
+    position: relative;
+}
+
+#list-specials #special-item-container-bottom-right {
+    background-image: url('../images/Quisque.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border: 8px solid white;
+    height: 180px;
+    border-bottom: 12px solid white;
+    position: relative;
+}
+
+#list-specials #special-item-container-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#list-specials #special-item-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 400px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#list-specials #special-item-container-left .special-description {
+    width: 100%;
+    height: 80px;
+}
+
+.special-description {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    padding-left: 15px;
+}
+
+.special-title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.special-content-title {
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#list-specials #special-item-container-right .special-description {
+    height: 50%;
+}
+
+#list-specials #special-item-container-bottom-left .special-description,
+#list-specials #special-item-container-bottom-right .special-description {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#daily-menu {
+    background-color: #e4e4e4;
+    height: 500px;
+}
+
+#daily-menu .title-container {
+    padding-bottom: 70px;
+}
+
+#daily-menu #main-menu {
+    position: relative;
+}
+
+#daily-menu #lunch-menu-img {
+    background-image: url('../images/luch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 309px;
+}
+
+#daily-menu #lunch-menu #lunch-menu-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    position: relative;
+}
+
+#daily-menu #lunch-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#daily-menu #lunch-menu-content .read-more {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+}
+
+#daily-menu #lunch-menu-content #list-item-lunch {
+    padding: 38px 33px 34px 61px;
+}
+
+ol {
+    counter-reset: item;
+}
+
+ol li {
+    display: block;
+}
+
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: #c79c60;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #302f2f;
+    height: 269px;
+    padding-bottom: 60px;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: baseline;
+}
+
+#footer-nav {
+    width: 20%;
+    display: flex;
+    height: 100%;
+}
+
+#footer-nav ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+#footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+}
+
+#footer-nav ul a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: none;
+}
+
+#footer-nav li:hover a {
+    color: #c79c60;
+}
+
+#footer-nav #main-menu-footer a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer-nav #main-menu-footer {
+    margin-top: 20px;
+}
+
+#footer .copy-right-text {
+    margin-top: 85px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#footer #footer-about-us {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    color: white;
+    justify-content: center;
+}
+
+#footer #get-social {
+    width: 25%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h2 {
+    font-size: 21px;
+}
+
+#footer #footer-about-us .sub-tilte-1 {
+    margin: 20px 0px;
+}
+
+#footer #get-social .describe {
+    margin: 15px 0px 25px 0;
+}
+
+#footer #icon-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#footer #icon-footer a {
+    background-color: #505050;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#footer #icon-footer .social-icon:hover,
+#footer #icon-footer .social-icon:focus {
+    background-color: #c79c60;
+    color: white;
+}
+
+.copy-right-text {
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width:768px) {
+    #content-header li a {
+        font-size: 14px;
+    }
+    #banner .light {
+        width: 33%;
+    }
+    .read-more {
+        margin-left: 0px;
+    }
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    #introduction .list-drink .detail-drink {
+        width: 40%;
+    }
+    #introduction .list-drink {
+        height: 85%;
+    }
+    #introduction {
+        height: 1100px;
+    }
+    #today-special {
+        height: 1100px;
+    }
+    #banner #table-set {
+        max-width: 100%;
+        top: 19px;
+    }
+    #list-specials #special-item-container-right {
+        width: 47%;
+    }
+    #list-specials #special-item-container-left {
+        margin-bottom: 20px;
+    }
+    #daily-menu #lunch-menu #lunch-menu-content {
+        width: 80%;
+    }
+    #daily-menu {
+        height: 720px;
+    }
+    #daily-menu #lunch-menu-content .read-more {
+        bottom: -30px;
+    }
+    #footer {
+        height: 600px;
+        padding-bottom: 10px;
+    }
+    #footer-nav {
+        height: 40%;
+    }
+    #footer #footer-about-us,
+    #footer #get-social {
+        height: 20%;
+        width: 90%;
+        font-size: 11px;
+        margin-top: 45px;
+        line-height: 1.5;
+    }
+    #main-footer {
+        flex-direction: column;
+        align-items: unset;
+        justify-content: center;
+    }
+    #footer #icon-footer {
+        margin-top: 0;
+    }
+    #footer #icon-footer a {
+        width: 24px;
+        height: 24px;
+    }
+    #introduction #main-title {
+        width: 20%;
+    }
+    #footer .copy-right-text {
+        margin-top: 30px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    #header-navigation #logo {
+        width: 100%;
+    }
+    #header-navigation #nav ul li {
+        display: none;
+    }
+    #banner .light-none {
+        display: none;
+    }
+    #header-navigation #nav #bar {
+        display: block;
+        padding-top: 14px;
+    }
+    #banner #banner-content h1 {
+        font-size: 40px;
+    }
+    #banner #banner-images {
+        width: 100%;
+    }
+    #banner #banner-content .descreption {
+        width: 100%;
+    }
+    #content #main-content .describe {
+        width: 90%;
+        height: 40%;
+    }
+    #content {
+        height: 700px;
+    }
+    #content #main-content .best-coffee-img {
+        display: flex;
+        justify-content: flex-end;
+        width: 30%;
+        position: absolute;
+        left: 68px;
+        bottom: 55px;
+        height: 30%;
+    }
+    #content #main-content {
+        height: 80%;
+        position: relative;
+    }
+    #content #best-coffee-content {
+        height: 97%;
+        padding-top: 100px;
+    }
+    #introduction #intro-drink .hr-line {
+        width: 90%;
+        display: flex;
+        margin-left: 15px;
+    }
+    #introduction .list-drink {
+        width: 100%;
+    }
+    #introduction .list-drink .detail-drink {
+        height: 30%;
+    }
+    #introduction {
+        height: 1600px;
+    }
+    #banner #table-set {
+        max-width: 100%;
+    }
+    #banner #banner-images .light {
+        width: 100%;
+    }
+    #banner #banner-content .descreption {
+        width: 90%;
+    }
+    #banner #table-set {
+        height: 180px;
+    }
+    #banner {
+        height: 1000px;
+    }
+    #introduction .list-drink .detail-drink {
+        width: 80%;
+        margin-left: 20px;
+        margin-bottom: 90px;
+    }
+    #today-special {
+        padding-top: 50px;
+        height: 950px;
+    }
+    #list-specials #special-item-container-left {
+        width: 90%;
+        margin-left: 5%;
+        height: 253px;
+    }
+    #list-specials #special-item-container-left .special-description {
+        height: 40%;
+    }
+    #list-specials #special-item-container-right {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #daily-menu {
+        height: 780px;
+    }
+    #daily-menu #lunch-menu .description {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #daily-menu #lunch-menu #lunch-menu-content {
+        width: 100%;
+    }
+    #daily-menu #lunch-menu #list-item-lunch {
+        width: 100%;
+    }
+    #daily-menu #lunch-menu ol li {
+        width: 87%;
+        margin-left: 10%;
+    }
+    #daily-menu #lunch-menu #list-item-lunch {
+        padding: 30px 10px;
+    }
+    #daily-menu #lunch-menu-content .read-more {
+        bottom: -39px;
+    }
+    .title-container .title-content {
+        width: 100%;
+        padding-left: 5%;
+    }
+    .title-container .title-line {
+        top: 92px;
+        width: 90%;
+        left: 5%;
+    }
+    #footer {
+        height: 650px;
+    }
+    #footer-nav {
+        width: 100%;
+        height: 40%;
+    }
+    #footer #footer-about-us,
+    #footer #get-social {
+        height: 30%;
+        margin-top: 0px;
+        line-height: 1.5;
+    }
+    #footer .copy-right-text {
+        width: 92%;
+        padding-left: 4%;
+    }
+    #list-product .product-item {
+        width: 90%;
+        padding-left: 5%;
+    }
+    #main-footer {
+        margin-left: 7%;
+    }
+    .read-more {
+        margin-left: 7%;
+    }
+    #introduction .order {
+        left: 125px;
+    }
+    #content-header #logo {
+        padding-left: 25px;
+    }
+}

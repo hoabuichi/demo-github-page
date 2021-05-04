@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-navigation">
+            <div id="content-header" class="container">
+                <div id="logo">
+                    <img src="../images/cafe.png" width="32" height="41" alt="Cafe">
+                    <p class="name-logo">Cafe House</p>
+                </div>
+                <nav>
+                    <div id="nav">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="today-special.html"> Today special</a>
+                            </li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li id="active">
+                                <a href="contact.html" class="active">
+                                    <img src="../images/cafe.png" class="logo" height="25" width="25" /> Contact
+                                    <br>
+                                    <img src="../images/sub-logo.png" class="sub-logo" alt="">
+                                </a>
+                            </li>
+                            <div id="bar">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="introduce-cafe">
+            <div id="banner">
+                <div id="banner-images" class=" container">
+                    <div class="light light-none">
+                        <img src="../images/led.png" alt="" width="100%" height="100%" />
+                    </div>
+                    <div class="light">
+                        <img src="../images/led.png" alt="" width="100%" height="100%" />
+                    </div>
+                    <div class="light light-none">
+                        <img src="../images/led.png" alt="" width="100%" height="100%" />
+                    </div>
+                </div>
+                <div id="banner-content">
+                    <h1>
+                        <img src="../images/height-line.png" alt="">Contact Us
+                        <img src="../images/height-line.png" alt="">
+                    </h1>
+                    <p class="cafe-name">Cafe house</p>
+                    <p class="descreption">Cafe House template is a mobile-friendly responsive <span class="bold">Bootstrap v3.3.5</span> layout by <span class="bold">templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    <div id="detail-cafe">
+                        <div class="detail">
+                            <a href="">Message Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="table-set" class="container">
+                </div>
+            </div>
+        </section>
+
+        <section id="section-send-us-message">
+            <div id="send-us-message">
+                <div id="content-send-message" class="container">
+                    <div id="list-input-message">
+                        <h2>Send us a message</h2>
+                        <form action="">
+                            <input type="text " placeholder="NAME" class="form-control"><br><br>
+                            <input type="email" placeholder="EMAIL" class="form-control"><br><br>
+                            <input type="text" placeholder="SUBJECT" class="form-control"><br><br>
+                            <input type="text" placeholder="MESSAGE" id="message"><br><br>
+                            <div class="read-more">
+                                <a href="#content-header">Send email</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="googleMap" style="width:100% ; height:400px"></div>
+                </div>
+            </div>
+
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(51.508742, -0.120850),
+                        zoom: 5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfRkpnFEMbcDBS278zxsgbAm9LIe5lsNM&callback=myMap"></script>
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="main-footer" class="container">
+                <div id="footer-nav">
+                    <ul>
+                        <li id="main-menu-footer">MAIN MENU</li>
+                        <li><a href="#content-header">HOME</a></li>
+                        <li><a href="#content-header">ABOUT US</a></li>
+                        <li><a href="#content-header">DIRECTORY</a></li>
+                        <li><a href="#content-header">BLOG</a></li>
+                        <li><a href="#content-header">OUR SERVICES</a></li>
+                    </ul>
+                </div>
+                <div id="footer-about-us">
+                    <h2>About Us</h2>
+                    <p class="sub-tilte-1">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+                    <p class="sub-title-2">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+                </div>
+                <div id="get-social">
+                    <h2>Get Social</h2>
+                    <p class="describe">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+                    <div id="icon-footer">
+                        <a href="#content-header" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#content-header" class="social-icon"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#content-header" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#content-header" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#content-header" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copy-right-text">Copyright © 2084 Your Cafe House. Design:<span class="blue-text"> template mo</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

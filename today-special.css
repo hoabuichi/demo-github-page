@@ -1,0 +1,55 @@
+#header-navigation #nav .sub-logo {
+    margin-left: 49px;
+    margin-top: 8px;
+}
+
+#introduction {
+    height: 1250px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#daily-menu {
+    height: 500px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    #introduction .list-drink {
+        height: 95%;
+    }
+    #introduction {
+        height: 1650px;
+    }
+    #introduction .list-drink .detail-drink {
+        width: 35%;
+        height: 370px;
+    }
+    #introduction .order {
+        left: 78px;
+    }
+    #daily-menu {
+        height: 750px;
+    }
+    #banner #table-set {
+        top: -22px;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    #introduction .list-drink .detail-drink {
+        width: 90%;
+    }
+    #introduction .order {
+        left: 116px;
+    }
+    #introduction {
+        height: 2982px;
+    }
+    #daily-menu #lunch-menu-content .read-more {
+        left: 5%;
+    }
+    #daily-menu {
+        height: 790px;
+    }
+}
