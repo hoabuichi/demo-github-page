@@ -151,7 +151,7 @@ nav {
 }
 
 #banner #banner-content #detail-cafe {
-    background-image: url('../images/tm-brown-button.png');
+    background-image: url('./images/tm-brown-button.png');
     width: 196px;
     height: 46px;
     position: relative;
@@ -174,7 +174,7 @@ nav {
 }
 
 #banner #table-set {
-    background-image: url('../images/table-set-real.png');
+    background-image: url('./images/table-set-real.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,7 +241,7 @@ nav {
 }
 
 .read-more {
-    background-image: url('../images/tm-brown-button.png');
+    background-image: url('./images/tm-brown-button.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,7 +426,7 @@ nav {
 }
 
 #list-specials #special-item-container-left {
-    background-image: url('../images/donec.jpg');
+    background-image: url('./images/donec.jpg');
     background-position: center;
     background-size: cover;
     width: 60%;
@@ -437,7 +437,7 @@ nav {
 }
 
 #list-specials #special-item-container-right #special-item-container-top {
-    background-image: url('../images/etiam.jpg');
+    background-image: url('./images/etiam.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -448,7 +448,7 @@ nav {
 }
 
 #list-specials #special-item-container-bottom-left {
-    background-image: url('../images/vivamus.jpg');
+    background-image: url('./images/vivamus.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -459,7 +459,7 @@ nav {
 }
 
 #list-specials #special-item-container-bottom-right {
-    background-image: url('../images/Quisque.jpg');
+    background-image: url('./images/Quisque.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -540,7 +540,7 @@ nav {
 }
 
 #daily-menu #lunch-menu-img {
-    background-image: url('../images/luch.png');
+    background-image: url('./images/luch.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
